@@ -6,4 +6,4 @@
 ### 3. views.sql
 ### 4. functions.sqñ
 ### 5. stored_procedures.sql
-### 6.triggers.sql
+### 6. triggers.sql
