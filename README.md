@@ -7,3 +7,4 @@
 ### 4. functions.sql
 ### 5. stored_procedures.sql
 ### 6. triggers.sql
+### 7. users.sql
