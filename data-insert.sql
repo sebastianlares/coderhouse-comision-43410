@@ -75,16 +75,16 @@ VALUES
 -- CATEGORY
 INSERT INTO `category` (`name`,`description`)
 VALUES
-  ("Jorden","Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec"),
-  ("Colin","eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula."),
-  ("Colorado","pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero."),
-  ("Amethyst","tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum ante"),
-  ("Glenna","luctus sit amet, faucibus ut, nulla. Cras eu tellus eu"),
-  ("Virginia","ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus."),
-  ("Mikayla","Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum"),
-  ("Jerry","ante. Vivamus non lorem vitae odio sagittis semper. Nam tempor"),
-  ("Martin","Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor."),
-  ("Venus","magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna.");
+  ("Ropa","Nam ac nulla. In tincidunt congue turpis. In condimentum. Donec"),
+  ("Comida","eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula."),
+  ("Ropa","pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero."),
+  ("Ropa","tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum ante"),
+  ("Comida","luctus sit amet, faucibus ut, nulla. Cras eu tellus eu"),
+  ("Comida","ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus."),
+  ("Comida","Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum"),
+  ("Ropa","ante. Vivamus non lorem vitae odio sagittis semper. Nam tempor"),
+  ("Ropa","Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor."),
+  ("Comida","magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna.");
 
 -- PRODUCT DATA
 
@@ -92,14 +92,14 @@ INSERT INTO `product` (`name`,`description`,`price`,`SKU`,`img_url`,`quantity`,`
 VALUES
   ("Alec","Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque.","856.33","AOF32MTV4UK","VBW68LFP8IF",244,1,1),
   ("Sean","massa non ante bibendum ullamcorper. Duis cursus, diam at pretium","48.98","EZG52DCE7ZQ","DGA88BIG2GR",224,2,2),
-  ("Marshall","odio. Nam interdum enim non nisi. Aenean eget metus. In","205.61","KPT98ORH2ES","BSQ47HWL3LK",360,3,3),
-  ("Portia","imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit,","88.51","IJU63UMN6FM","TII72AGR4OH",98,4,4),
+  ("Marshall","odio. Nam interdum enim non nisi. Aenean eget metus. In","205.61","KPT98ORH2ES","BSQ47HWL3LK",360,3,2),
+  ("Portia","imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit,","88.51","IJU63UMN6FM","TII72AGR4OH",98,4,1),
   ("Darrel","nunc. In at pede. Cras vulputate velit eu sem. Pellentesque","649.49","HLJ43IVU8VV","DVB12DOF8UM",109,5,5),
-  ("Rashad","accumsan convallis, ante lectus convallis est, vitae sodales nisi magna","881.31","UJR91YVG6GB","FPV27UVZ8EI",281,6,6),
+  ("Rashad","accumsan convallis, ante lectus convallis est, vitae sodales nisi magna","881.31","UJR91YVG6GB","FPV27UVZ8EI",281,6,2),
   ("Tallulah","Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue","151.55","HVL23TMM4HS","PMU24OWI8ZO",310,7,7),
-  ("Brenna","odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam","522.68","FGL74CBH2PH","CDG27ELE9UF",446,8,8),
-  ("Melvin","habitant morbi tristique senectus et netus et malesuada fames ac","337.87","EKR06EJV4GD","ZHJ92TVN2WD",132,9,9),
-  ("Rinah","lectus ante dictum mi, ac mattis velit justo nec ante.","22.02","JMR64WLW6TJ","CBS71CMU9PC",163,10,10);
+  ("Brenna","odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam","522.68","FGL74CBH2PH","CDG27ELE9UF",446,8,3),
+  ("Melvin","habitant morbi tristique senectus et netus et malesuada fames ac","337.87","EKR06EJV4GD","ZHJ92TVN2WD",132,9,3),
+  ("Rinah","lectus ante dictum mi, ac mattis velit justo nec ante.","22.02","JMR64WLW6TJ","CBS71CMU9PC",163,10,3);
   
  -- CART_ITEM
  INSERT INTO `cart_item` (`quantity`,`id_shopping_session`,`id_product`)
@@ -142,3 +142,5 @@ VALUES
   ("415.93","0",8,8,8),
   ("783.38","1",9,9,9),
   ("674.66","1",10,10,10);
+  
+  
